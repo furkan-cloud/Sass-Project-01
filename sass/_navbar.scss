@@ -1,6 +1,14 @@
 .navbar {
   & img {
     opacity: 0.8;
+    
+  }
+  &__border {
+    position: relative;
+    height: 2px;
+    top: 140px;
+    border-bottom: 1px solid #E2E2E2;
+    transform: rotate(0.14deg);
   }
   &__logo {
     position: absolute;

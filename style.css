@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url("./images/background1.png"), rgba(0, 0, 0, 0.2);
+  background: url("../images/background1.png"), rgba(0, 0, 0, 0.2);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
@@ -20,6 +20,13 @@ body {
 
 .navbar img {
   opacity: 0.8;
+}
+.navbar__border {
+  position: relative;
+  height: 2px;
+  top: 140px;
+  border-bottom: 1px solid #E2E2E2;
+  transform: rotate(0.14deg);
 }
 .navbar__logo {
   position: absolute;
